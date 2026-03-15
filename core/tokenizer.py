@@ -1,4 +1,4 @@
-from cs336_basics.pretokenization_example import find_chunk_boundaries
+from core.pretokenization_example import find_chunk_boundaries
 import regex as re
 from collections.abc import Iterable, Iterator
 import json

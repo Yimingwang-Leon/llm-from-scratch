@@ -1,5 +1,5 @@
 import torch
-from cs336_basics.model import softmax
+from core.model import softmax
 
 def top_p_filter(probs, top_p):
     sorted_probs, sorted_indices = torch.sort(probs, descending=True)

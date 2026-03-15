@@ -2,7 +2,7 @@
 Tokenize a raw .txt file and save token IDs as a .npy file.
 
 Usage:
-    python -m cs336_basics.preprocess \
+    python -m core.preprocess \
         --input data/TinyStoriesV2-GPT4-train.txt \
         --output data/tinystories_train.npy \
         --vocab tinystories_vocab.json \
@@ -10,7 +10,7 @@ Usage:
 """
 import argparse
 import numpy as np
-from cs336_basics.tokenizer import Tokenizer
+from core.tokenizer import Tokenizer
 
 
 def main(args):

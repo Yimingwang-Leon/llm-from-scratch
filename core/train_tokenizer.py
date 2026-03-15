@@ -1,4 +1,4 @@
-from cs336_basics.tokenizer import train_bpe
+from core.tokenizer import train_bpe
 import json
 import time
 import tracemalloc

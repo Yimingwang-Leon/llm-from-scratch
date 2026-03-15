@@ -4,8 +4,8 @@ import argparse
 import time
 import json
 import os
-from cs336_basics.model import TransformerLM
-from cs336_basics.training import cross_entropy, AdamW, learning_rate_schedule, gradient_clipping, data_loading, save_checkpoint, load_checkpoint
+from core.model import TransformerLM
+from core.training import cross_entropy, AdamW, learning_rate_schedule, gradient_clipping, data_loading, save_checkpoint, load_checkpoint
 
 
 class ExperimentLogger:
